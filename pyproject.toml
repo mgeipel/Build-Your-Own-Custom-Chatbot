@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "build-your-own-custom-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["Markus Geipel"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ipykernel = "^6.29.5"
+openai = {extras = ["embeddings"], version = "^1.56.1"}
+pandas = "^2.2.3"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+tiktoken = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
